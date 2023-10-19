@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Cooking | Login',
 };
 
-export default function LoginPage({ params, searchParams }: IPrams) {
+export default function Login({ params, searchParams }: IPrams) {
     return (
         <>
             <LoginForm params={params} searchParams={searchParams} />

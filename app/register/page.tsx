@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     title: 'Cooking | Register',
 };
 
-export default function RegisterPage() {
+export default function Register() {
     return (
         <>
             <RegisterForm />
